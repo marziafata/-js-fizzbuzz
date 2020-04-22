@@ -6,8 +6,9 @@
 // creare un ciclo for di numeri da 1 a 100
 for (var i = 1; i < 101; i++) {
 
-    // se numero divisibile per 3 scrivi Fizz
-    // se resto = 0 scrivi Fizz
+
+    // se numero divisibile per 3 e per 5 scrivi FizzBuzz
+    // sono tutti i numeri divisibili per 15
     if (i % 15 == 0) {
         console.log("FizzBuzz")
 
@@ -16,11 +17,11 @@ for (var i = 1; i < 101; i++) {
     } else if (i % 5 == 0) {
         console.log("Buzz")
 
-    // se numero divisibile per 3 e per 5 scrivi FizzBuzz
-    // sono tutti i numeri divisibili per 15
+    // se numero divisibile per 3 scrivi Fizz
+    // se resto = 0 scrivi Fizz
     } else if (i % 3 == 0) {
         console.log("Fizz")
-        
+
     } else {
         console.log(i);
     }
