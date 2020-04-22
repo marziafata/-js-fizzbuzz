@@ -6,7 +6,6 @@
 // creare un ciclo for di numeri da 1 a 100
 for (var i = 1; i < 101; i++) {
 
-
     // se numero divisibile per 3 e per 5 scrivi FizzBuzz
     // sono tutti i numeri divisibili per 15
     if (i % 15 == 0) {
