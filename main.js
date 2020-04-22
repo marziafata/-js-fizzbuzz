@@ -4,18 +4,20 @@
 // al posto dei multipli sia di 3 che di 5 stampi "FizzBuzz"
 
 // creare un ciclo for di numeri da 1 a 100
-
-// creare un array collegato al ciclo
-
-// stampare gli elementi da 1 a 100
-
-// se numero divisibile per 3 scrivi Fizz
-// il numero diviso 3 deve dare resto 0
-
-// se numero divisibile per 5 scrivi Buzz
-// il numero diviso 5 deve dare resto 0
-
-// se numero divisibile per 3 e per 5 scrivi FizzBuzz
-// sono tutti i numeri divisibili per 15
-
-// stampa in pagina
+for (var i = 1; i < 101; i++) {
+    // se numero divisibile per 3 scrivi Fizz
+    // se resto = 0 scrivi Fizz
+    if (i % 3 == 0) {
+        console.log("Fizz")
+    // se numero divisibile per 5 scrivi Buzz
+    // il numero diviso 5 deve dare resto 0
+    } else if (i % 5 == 0) {
+        console.log("Buzz")
+    // se numero divisibile per 3 e per 5 scrivi FizzBuzz
+    // sono tutti i numeri divisibili per 15
+    } else if (i % 15 == 0) {
+        console.log("FizzBuzz")
+    // stampa in pagina
+    } else console.log(i); {
+    }
+}
