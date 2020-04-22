@@ -7,17 +7,22 @@
 for (var i = 1; i < 101; i++) {
     // se numero divisibile per 3 scrivi Fizz
     // se resto = 0 scrivi Fizz
-    if (i % 3 == 0) {
-        console.log("Fizz")
+    if (i % 15 == 0) {
+        // console.log("FizzBuzz")
+        document.getElementById('fizz_buzz').innerHTML='fizzbuzz';
     // se numero divisibile per 5 scrivi Buzz
     // il numero diviso 5 deve dare resto 0
     } else if (i % 5 == 0) {
-        console.log("Buzz")
+        // console.log("Buzz")
+        document.getElementById('fizz_buzz').innerHTML='buzz';
     // se numero divisibile per 3 e per 5 scrivi FizzBuzz
     // sono tutti i numeri divisibili per 15
-    } else if (i % 15 == 0) {
-        console.log("FizzBuzz")
+    } else if (i % 3 == 0) {
+        // console.log("Fizz")
+        document.getElementById('fizz_buzz').innerHTML='fizz';
     // stampa in pagina
-    } else console.log(i); {
+    } else {
+        // console.log(i);
+        document.getElementById('nofizz').innerHTML= i;
     }
 }
