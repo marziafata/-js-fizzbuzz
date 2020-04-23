@@ -3,8 +3,10 @@
 // al posto dei multipli di 5 stampi "Buzz"
 // al posto dei multipli sia di 3 che di 5 stampi "FizzBuzz"
 
+var valore_iniziale = 1
+var valore_finale = 101
 // creare un ciclo for di numeri da 1 a 100
-for (var i = 1; i < 101; i++) {
+for (var i = valore_iniziale; i < valore_finale; i++) {
 
     // se numero divisibile per 3 e per 5 scrivi FizzBuzz
     // sono tutti i numeri divisibili per 15
